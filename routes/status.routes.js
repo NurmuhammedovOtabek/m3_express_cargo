@@ -1,4 +1,4 @@
-const { createStatus, getStatus, getByIdStatus, updateStatus, deleteStatus } = require("../controllers/status.controller")
+const { createStatus, getStatus, getByIdStatus, updateStatus, deleteStatus, shart4 } = require("../controllers/status.controller")
 
 const router = require("express").Router()
 

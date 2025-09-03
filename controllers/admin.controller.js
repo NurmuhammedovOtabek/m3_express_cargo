@@ -1,4 +1,5 @@
 const Admin = require("../models/admin")
+const Order = require("../models/order")
 
 const addAdmin = async (req, res)=>{
     try{
@@ -22,7 +23,11 @@ const addAdmin = async (req, res)=>{
 
 const getAdmin = async (req,res)=>{
     try{
-        const get = await Admin.findAll()
+        const get = await Admin.findAll({
+            include:{
+                model: Order
+            }
+        })
         res.status(200).json({
             message: "Getting ",
             data: get

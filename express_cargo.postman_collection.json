@@ -17,7 +17,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"full_name\": \"Botir Qodirov\",\r\n    \"phone_number\": \"1234568\",\r\n    \"email\": \"botr@mai.com\",\r\n    \"address\": \"Toshkent\",\r\n    \"location\": \"123.123\"\r\n}",
+							"raw": "{\r\n    \"full_name\": \"Axror\",\r\n    \"phone_number\": \"1234570\",\r\n    \"email\": \"Axeoe@mai.com\",\r\n    \"address\": \"Toshken\",\r\n    \"location\": \"123.723\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -126,6 +126,48 @@
 								"api",
 								"client",
 								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "shart4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/shart4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"shart4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "shart3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/shart3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"shart3"
 							]
 						}
 					},
@@ -269,7 +311,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"bek\",\r\n    \"description\": \"nnnnnn\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Mijozga yetkazildi\",\r\n    \"description\": \"yaxshi\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -395,7 +437,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"full_name\": \"Oybek\",\r\n\"user_name\": \"Bek\",\r\n\"password\": \"0001\",\r\n\"phone_number\": \"958571317\",\r\n\"email\":\"p[jihugiv bnk;jkhlj\",\r\n\"tg_link\": \"dfdfdffdf\",\r\n\"is_creator\": true,\r\n\"is_active\": true,\r\n\"discription\": \"qwertyuiop\"\r\n}",
+							"raw": "{\r\n    \"full_name\": \"bek\",\r\n\"user_name\": \"Bek2\",\r\n\"password\": \"0002\",\r\n\"phone_number\": \"958573317\",\r\n\"email\":\"p[jihugiv bnk;jkj\",\r\n\"tg_link\": \"dfdfdffdf\",\r\n\"is_creator\": true,\r\n\"is_active\": true,\r\n\"discription\": \"qwertyuiop\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -504,6 +546,175 @@
 								"api",
 								"admin",
 								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order",
+			"item": [
+				{
+					"name": "addOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"product_link\":\"asdf4g\" ,\r\n    \"quantity\": 10 ,\r\n    \"sum\": 10000 ,\r\n    \"truck\": \"Air\",\r\n    \"desc\": \"Qwert\",\r\n    \"clientId\": 2,\r\n    \"currencyTypeId\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/order",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"product_link\":\"asdfgfdsasdfg\" ,\r\n    \"quantity\": 10 ,\r\n    \"sum\": 10000 ,\r\n    \"truck\": \"Air\",\r\n    \"desc\": \"Qwert\",\r\n    \"clientId\": 2\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/order",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "shart1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/order/shart1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"order",
+								"shart1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "operation",
+			"item": [
+				{
+					"name": "addOperation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"operation_date\": \"2025-09-02\", \r\n    \"description\": \"opeation desc\", \r\n    \"adminId\": 3, \r\n    \"orderId\": 4,\r\n    \"statusId\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "det",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "shart2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startDate\": \"2025-09-03\",\r\n    \"endDate\": \"2025-09-04\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/operation/shart2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"operation",
+								"shart2"
 							]
 						}
 					},
