@@ -30,6 +30,5 @@ Operation.belongsTo(Order, {as: `order`})
 
 Status.hasMany(Operation, {as: `operation`}),
 Operation.belongsTo(Status, {as:`status`})
-// Operation.belongsTo(Admin)
 
 module.exports = Operation

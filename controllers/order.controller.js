@@ -37,14 +37,8 @@ const addOrder = async (req, res) => {
 
 const getAllOrders = async (req, res) => {
   try {
-    const order = await Order.findAll({
-      include: [
-        { model: Client },
-        { model: Currency_type },
-        { model: Admin, through: { attributes: [] } },
-      ],
-    });
-    res.status(200).send({
+    const order = await Order.findAll();
+    res.status(200).json({
       message: "all orders",
       data: order,
     });

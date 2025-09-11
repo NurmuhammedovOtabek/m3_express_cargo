@@ -1,0 +1,24 @@
+2025-09-08T13:06:35.330Z [Expres Cargo] error: unhandledRejection: unhandledRejection
+Error: unhandledRejection
+    at C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\controllers\auth.controller.js:55:14
+    at new Promise (<anonymous>)
+    at login (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\controllers\auth.controller.js:54:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-09-08T13:29:41.672Z [Expres Cargo] error: unhandledRejection: unhandledRejection
+Error: unhandledRejection
+    at C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\controllers\auth.controller.js:46:14
+    at new Promise (<anonymous>)
+    at login (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\controllers\auth.controller.js:45:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-09-09T11:47:50.795Z [Expres Cargo] error: unhandledRejection: The "paths[0]" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at Object.resolve (node:path:199:9)
+    at ExpressHandlebars.<anonymous> (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:103:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:13:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:9:12)
+    at ExpressHandlebars.getTemplate (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:102:16)
+    at ExpressHandlebars.<anonymous> (C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:144:22)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\Desktop\najot talim\dars fullstack\dars node js 3oy\dars 10\express cargo\node_modules\express-handlebars\dist\express-handlebars.js:13:71

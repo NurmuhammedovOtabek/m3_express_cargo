@@ -34,7 +34,8 @@ const Admin = sequelize.define("admin",{
     },
     discription:{
         type: DataTypes.STRING
-    }
+    },
+    refresh_token: DataTypes.STRING
 })
 
 module.exports = Admin

@@ -1,0 +1,4 @@
+{"level":"info","message":"POST /api/auth/login 200 55ms","meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"48","content-type":"application/json","cookie":"refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJwW2ppaHVndmpraiIsImlzX2FjdGl2ZSI6ZmFsc2UsImlzX2NyZWF0b3IiOmZhbHNlLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NTcwNzM5ODQsImV4cCI6MTc1ODM2OTk4NH0.bUSoMyc7L-cBapDq6wgO6_H_XgGtLR8_mVYNlpwKhZM","host":"localhost:3000","postman-token":"b34c59d2-9ab4-446a-a0f6-dd95c1acf2f2","user-agent":"PostmanRuntime/7.45.0"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/auth/login","query":{},"url":"/api/auth/login"},"res":{"statusCode":200},"responseTime":55}}
+
+
+
