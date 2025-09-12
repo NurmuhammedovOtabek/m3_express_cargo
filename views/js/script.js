@@ -7,7 +7,7 @@ function login() {
       const email = document.getElementById("email").value;
       const password = document.getElementById("password").value;
       try {
-        fetch("http://localhost:3000/api/auth/login", {
+        fetch("http://47.84.199.94:3000/api/auth/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
