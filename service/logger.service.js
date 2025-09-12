@@ -1,5 +1,4 @@
 const winston = require("winston")
-require("winston-mongodb")
 
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, printf , colorize, json} = format;
@@ -18,8 +17,7 @@ const logger = winston.createLogger({
     transports: [
         new transports.Console(),
         new transports.File({filename: "./log/error.log", level: "error"}),
-        new transports.File({filename: "./log/combie.log", level: "info"}),
-        new transports.MongoDB({db: "mongodb://localhost:27017/mydb"})
+        new transports.File({filename: "./log/combie.log", level: "info"})
     ]
 })
 

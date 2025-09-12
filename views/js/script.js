@@ -56,7 +56,7 @@ async function getAdmins() {
       console.log("AccessToken chiqish vaqti berilmagan");
     }
   
-    fetch("http://localhost:3000/api/admin", {
+    fetch("http://47.84.199.94:3000/api/admin", {
       method: "GET",
       headers: {
         Authorization: `Bearer ${accessToken}`,
@@ -95,7 +95,7 @@ async function getOper() {
         console.log("AccessToken chiqish vaqti berilmagan");
     }
 
-    fetch("http://localhost:3000/api/operation",{
+    fetch("http://47.84.199.94:3000/api/operation",{
         method: "Get",
         headers: {
             Authorization: `Bearer ${accessToken}`,
@@ -134,7 +134,7 @@ async function getOrder() {
       console.log("AccessToken chqish vati berilmagan vaqti berilmagan");
     }
 
-    fetch("http://localhost:3000/api/order",{
+    fetch("http://47.84.199.94:3000/api/order",{
       method: "GET",
       headers: {
         Authorization: `Bearer ${accessToken}`,
